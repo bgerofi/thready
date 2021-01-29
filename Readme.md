@@ -1,6 +1,8 @@
+# Thready
+
 Thready is a simple library that captures pthreads and reports their TID along with which library they execute from.
 
-#### Installation
+#### Installation:
 
 ```bash
 # Clone source, create build folder and compile
@@ -12,7 +14,7 @@ cmake -DCMAKE_INSTALL_PREFIX=/path/to/install ..
 make install
 ```
 
-#### Usage example
+#### Usage example:
 
 The following OpenMP application creates three threads running from libgomp.
 
